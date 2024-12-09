@@ -7,7 +7,7 @@ struct CardDeck {
 
 impl CardDeck {
     fn new() -> Self {
-        // create a not list, but an array of suits: 'spades', 'diamonds', ...
+        // create not list, but an array of suits: 'spades', 'diamonds', ...
         // we want to use array, because arrays have constant length
         let suits = ["spades", "diamonds", "hearts", "clubs"];
 
